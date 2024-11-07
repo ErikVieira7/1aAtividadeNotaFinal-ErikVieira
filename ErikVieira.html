@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1aAtividadeNotaFinal-ErikVieira</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+      <header>
+            <div class="center">
+<br>
+<br>
+    <h1>Erik Vieira de Almeida</h1>
+                <img src="./img/erik.png">
+            </div>
+            <h2>Desenvolvedor de Software</h2>
+        </header>
+        <main>
+            <section>
+                <h3>Sobre mim</h3>
+                <p>
+                  Me chamo Erik Vieira de Almeida, tenho 20 anos e começei a estudar programação a pouco tempo, mas sempre tive afeto com o mundo dos computadores, e com isso, estou me tornando um estudante de ciência da tecnologia para que possa seguir a carreira com algo que eu goste, buscando sempre melhorar.
+                </p>
+            </section>
+            <section>
+                <h3>Formação</h3>
+                <p>
+                  Estácio de Sá, cursando o segundo período de análise e desenvolvimento de sistemas.
+                </p>
+                <p>Matrícula: 202404048454</p>
+            </section>
+            <section>
+                <h3>Cursos</h3>
+                <p>
+                  Inglês, excel, word, powerpoint, manutenção de computadores.
+                </p>
+            </section>
+        </main>
+<br>
+<br> 
+<br>
+<div class="imagens">
+<img src="https://m.media-amazon.com/images/I/71M67hT1lTL._AC_SX679_.jpg" alt="Whey concentrado" width="300" height="200">
+<img src="https://m.media-amazon.com/images/I/51tMj2T1rUL._AC_SX679_.jpg" alt="Whey protein" width="300" height="200">
+<img src="https://m.media-amazon.com/images/I/611DbOCRmFL._AC_SX679_.jpg" alt="Whey max" width="300" height="200">
+ </div>
+ <br>
+ <br>
+ <br>
+ <div class="tabela">
+ <table border="1">
+<tr>
+    <th>Produtos</th>
+    <th>Quantidade</th> 
+    <th>Preços</th>
+</tr>
+<tr>  
+     <td>Whey Concentrado</td>
+     <td>900g</td>
+     <td>R$60.00</td>
+</tr>
+     <td>Whey Protein</td>
+     <td>1Kg</td>
+     <td>R$94.00</td>
+<tr> 
+    <td>Whey Max Titanium</td>
+    <td>900g</td>
+    <td>R$139.00</td>
+</tr>
+ </table>
+ </div>
+ <main>
+    <h2>Sobre os produtos</h2>
+    <section>
+     <h3>.Whey Concentrado</h3>
+      <p>A Whey One é uma alternativa para quem busca qualidade e baixo custo para complementar o consumo de proteínas! Tendo como principal componente a Proteína concentrada do soro de leite, são 29g* de proteína por dose, 3,36g de Glutamina, 420mg de Arginina e 4,5g de BCAA. O Whey Protein Concentrado é uma forma de Whey Protein que passa por um processo de filtragem para concentrar suas proteínas e remover carboidratos e gorduras. Com proteína concentrada de alta qualidade. Além disso, a Whey One tem um sabor delicioso e é livre de glúten. (*Ao tomar com leite). Experimente o melhor, entre para o Team Dark Lab.</p>
+    <section>
+     <h3>.Whey Protein</h3>
+      <p>Whey Protein Basic 1Kg Original - Growth Supplements Basic Whey trata-se de uma alternativa de boa qualidade e baixo custo para as pessoas que desejam aumentar o consumo de proteínas dentro do planejamento alimentar diário. Este é um produto obtido através da remoção de nutrientes não proteicos do soro do leite. O produto é confeccionado com proteínas do soro do leite e fornece proteínas de alto valor biológico e de rápida absorção, promove a oferta de aminoácidos essenciais e de cadeia ramificada auxiliando na recuperação das fibras musculares auxiliando na obtenção dos seus objetivos. Basic Whey Protein é um produto que pode ser usado como alternativa nas refeições, no decorrer do dia como também na situação que sucede o treino. É um produto ideal para ser usado na confecção de receitas “fit”, receitas saudáveis que necessitem ir ao fogo ou a geladeira. *Fonte de proteínas de alto valor biológico *Ajuda no aumento de volume de massa magra *Potencializa a recuperação do tecido muscular *Ajuda no combate a inflamação muscular *Pode ser usado tanto em dietas de aumento como de redução de massa *Fornece sensação de saciedade Sugestão de Consumo Sugerimos 30g do produto como porção, podendo ser diluído no líquido e quantidade de sua preferência. Podem ser consumidas quantas porções o indivíduo precisar ao dia. Isso dependerá da sua dieta e das suas refeições. O Basic pode ser ingerido sempre que faltar proteína via alimentos em uma refeição, podendo ser usado 1, 2, 3X ao dia; a quantidade a ser consumida irá depender da necessidade da sua dieta.</p>
+    <section>
+     <h3>.Whey Max Titanium</h3>
+      <p>100% WHEY da Max Titanium em colaboração com a Dr. Peanut é a proteína ideal para quem busca performance e sabor em um único suplemento. Quem conhece a Dr. Peanut sabe de sua qualidade associada aos sabores incríveis e trouxemos isso para o Whey da Max. Sua formulação à base de proteína concentrada do soro do leite (Whey Protein Concentrate), auxilia na formação dos músculos e ossos. Com sabores exclusivos e campeões de vendas da Dr. Peanut, é elaborado com matéria-prima de alta tecnologia e valor biológico, trazendo rápida digestibilidade e elevada concentração de aminoácidos essenciais.</p>
+<br>
+<br>
+      <h2> Formulário de contato </h2>
+      <div class="formulario">
+    <form action="/submit_form" method="post" onsubmit="enviarFormulario(event)">
+    <label for="name"> Nome Completo: </label><br>
+    <input type="text" id="name" name="name"><br><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Digite aqui seu email" required><br><br>
+
+    <label for="passaword">Senha:</label><br>
+    <input type="password" id="passaword" name="passaword"
+    required><br><br>
+   
+
+    <label for="mensagem">Mensagem:</label><br>
+    <input type="mensagem" id="mensagem" name="mensagem" required><br><br>
+
+    <label < Gender:</label><br>
+    <input type="radio" id="Homem" name="Gender" value="Homem">
+    <label for="Homem">Homem</label><br>
+    <input type="radio" id="Mulher" name="Gender" value="Mulher">   
+    <label for="Mulher">Mulher</label><br><br>
+
+    
+    <label for="profile">Carregar foto de perfil:</label><br>
+    <input type="file" id="profile" name="profile"><br><br>
+    
+    <div class="boletim">
+        <label for="newsletter">Assine o boletim informativo:</label>
+        <input type="checkbox" id="newsletter" name="newsletter" value="sim" required><br><br>
+    </div>
+   
+    <button type="submit" class="btn-submit">Enviar</button>
+    <p id="mensagemFeedback"></p>
+</form>
+</div>
+<main>
+    <div class="container">
+        <h1>Calculadora de IMC</h1>
+        <div class="calculadora">
+        <form id="imcForm">
+            <label for="weight">Peso (kg):</label>
+            <input type="number" id="weight" placeholder="Ex: 70" required>
+            
+            <label for="height">Altura (m):</label>
+            <input type="number" id="height" placeholder="Ex: 1.75" step="0.01" required>
+            
+            <button type="button" onclick="calculateIMC()">Calcular IMC</button>
+        </form>
+        
+        <div id="result"></div>
+    </div>
+<script src="script.js"></script>
+</body>
+<br>
+<br>
+        <footer>
+            <a href="https://github.com/ErikVieira7" target="_blank" rel="noopener noreferrer">
+                <img src="./img/github.svg"></img>
+                <p>Github</p>
+            </a>
+            <a href="https://www.linkedin.com/in/erik-vieira-18a693304/" target="_blank" rel="noopener noreferrer">
+                <img src="./img/linkedin.svg"></img>
+                <p>Linkedin</p>
+            </a>
+            <a href="https://www.instagram.com/erik.vr/" target="_blank" rel="noopener noreferrer">
+                <img src="./img/instagram.png"></img>
+                <p>Instagram</p>
+            </a>
+        </footer>
+    </div>
+
+</body>
+
+<style>
+    body {
+        color: white;
+        background-color: #081b29;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      h1 {
+        color: white;
+        text-align: center;
+      }
+      
+      h2 {
+        text-align: center;
+        font-size: 25px;
+        text-decoration: underline;
+      }
+
+      h3 {
+        text-align: center;
+        font-size: 25px;
+      }
+
+      p{
+        text-align: center;
+        font-size: 20px;
+        margin: 1%;
+      }
+
+      .imagens{
+        text-align: center;
+      }
+    
+      .tabela{
+        text-align: center;
+        margin-left: 780px;
+
+      }
+
+      .formulario{
+        text-align: center;
+      }
+
+      .calculadora{
+        text-align: center;
+        font-size: 20px;
+      }
+      
+      .boletim{
+        text-align: center;
+      }
+
+      .botao{
+        text-align: center;
+      }
+
+      ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        align-items: center;
+        padding: 16px;
+      }
+      
+      header img {
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        border: 5px solid #5fb8e2;
+      }
+
+</style>
+
+
+<script>
+    function calculateIMC() {
+        const weight = parseFloat(document.getElementById('weight').value);
+        const height = parseFloat(document.getElementById('height').value);
+        const resultElement = document.getElementById('result');
+    
+        if (isNaN(weight) || isNaN(height)) {
+            resultElement.textContent = "Por favor, insira valores válidos.";
+            return;
+        }
+    
+        const imc = weight / (height * height);
+        let classification = '';
+    
+        if (imc < 18.5) {
+            classification = 'Abaixo do peso';
+        } else if (imc >= 18.5 && imc < 24.9) {
+            classification = 'Peso normal';
+        } else if (imc >= 25 && imc < 29.9) {
+            classification = 'Sobrepeso';
+        } else if (imc >= 30 && imc < 34.9) {
+            classification = 'Obesidade grau 1';
+        } else if (imc >= 35 && imc < 39.9) {
+            classification = 'Obesidade grau 2';
+        } else {
+            classification = 'Obesidade grau 3';
+        }
+    
+        resultElement.textContent = `Seu IMC é ${imc.toFixed(2)} (${classification}).`;
+    }
+</script>
+
+
+<script>
+    function enviarFormulario(event) {
+        event.preventDefault();
+        
+        const checkbox = document.getElementById('newsletter');
+      const nome = document.getElementById('name').value;
+        const feedback = document.getElementById('mensagemFeedback');
+        feedback.textContent = "Formulário enviado com sucesso!";
+        if (!checkbox.checked) {
+            feedback.textContent = "Por favor, assine o boletim informativo para continuar.";
+            feedback.style.color = "red";
+        } else if (!nome) {
+            feedback.textContent = "Por favor, preencha o campo Nome Completo.";
+            feedback.style.color = "red";
+        } else {
+            feedback.textContent = "Formulário enviado com sucesso!";
+            feedback.style.color = "green";
+        }
+    }     
+</script>
+
+</html>
+
+
